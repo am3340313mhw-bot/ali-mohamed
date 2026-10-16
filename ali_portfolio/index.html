@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="المعرض الشخصي والسيرة الذاتية لـ ali، مطور ويب">
+  <title>ali | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-glow glow-one"></div><div class="page-glow glow-two"></div>
+  <nav class="navbar navbar-expand-lg fixed-top site-nav">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#home"><span class="brand-dot">✦</span> <span>ali</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="فتح القائمة"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" data-ar="عني" data-en="About">عني</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills" data-ar="المهارات" data-en="Skills">المهارات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects" data-ar="المشاريع" data-en="Projects">المشاريع</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" data-ar="تواصل معي" data-en="Contact">تواصل معي</a></li>
+        </ul>
+        <div class="nav-actions d-flex gap-2">
+          <button id="langToggle" class="btn btn-outline-soft btn-sm" type="button" aria-label="Switch language">EN</button>
+          <a class="btn btn-primary-soft btn-sm" href="#contact"><span data-ar="لنتحدث" data-en="Let's talk">لنتحدث</span> <i class="bi bi-arrow-up-left"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section id="home" class="hero-section section-pad">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7 hero-copy">
+            <div class="eyebrow"><span class="status-dot"></span><span data-ar="متاح لفرص التدريب والعمل" data-en="Available for internships & opportunities">متاح لفرص التدريب والعمل</span></div>
+            <p class="hero-kicker" data-ar="مرحبًا، أنا" data-en="Hello, I'm">مرحبًا، أنا</p>
+            <h1 class="hero-title"><span class="name-highlight">ali</span><br><span data-ar="مطور ويب" data-en="Web Developer">مطور ويب</span><span class="title-period">.</span></h1>
+            <p class="hero-description" data-ar="أحوّل الأفكار إلى تجارب رقمية أنيقة وسريعة وسهلة الاستخدام. أتعلم باستمرار وأهتم بالتفاصيل التي تصنع فرقًا." data-en="I turn ideas into elegant, fast, and user-friendly digital experiences. I keep learning and care about the details that make a difference.">أحوّل الأفكار إلى تجارب رقمية أنيقة وسريعة وسهلة الاستخدام. أتعلم باستمرار وأهتم بالتفاصيل التي تصنع فرقًا.</p>
+            <div class="d-flex flex-wrap gap-3 hero-buttons">
+              <a class="btn btn-primary-soft btn-lg" href="#projects"><span data-ar="استكشف أعمالي" data-en="Explore my work">استكشف أعمالي</span> <i class="bi bi-arrow-up-left"></i></a>
+              <a class="btn btn-outline-soft btn-lg" href="assets/cv.txt" download><i class="bi bi-download"></i> <span data-ar="تحميل السيرة الذاتية" data-en="Download CV">تحميل السيرة الذاتية</span></a>
+            </div>
+            <div class="social-row"><span data-ar="تابعني" data-en="Find me">تابعني</span><a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a><a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a><a href="mailto:am3440314@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a><span class="social-line"></span></div>
+          </div>
+          <div class="col-lg-5"><div class="hero-visual"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="profile-card"><div class="profile-card-top"><span class="window-dots"><b></b><b></b><b></b></span><span class="code-label">developer.js</span></div>
+              <img class="profile-photo" src="assets/profile.jpg" alt="Ali profile photo">
+              <div class="code-art" aria-label="Decorative code illustration">
+                <p><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p>
+                <p class="indent"><span class="code-green">name</span>: <span class="code-orange">'ali'</span>,</p>
+                <p class="indent"><span class="code-green">role</span>: <span class="code-orange">'Web Developer'</span>,</p>
+                <p class="indent"><span class="code-green">skills</span>: [</p>
+                <p class="indent2"><span class="code-orange">'HTML'</span>, <span class="code-orange">'CSS'</span>,</p>
+                <p class="indent2"><span class="code-orange">'Bootstrap'</span>, <span class="code-orange">'JavaScript'</span></p>
+                <p class="indent">],</p><p class="indent"><span class="code-green">learning</span>: <span class="code-blue">true</span></p><p>};</p>
+                <p class="code-comment">// building something great ✨</p>
+              </div>
+              <div class="profile-card-footer"><span><i class="bi bi-circle-fill"></i> <span data-ar="جاهز لبناء أفكار جديدة" data-en="Ready to build new ideas">جاهز لبناء أفكار جديدة</span></span><span>v1.0</span></div>
+            </div>
+            <div class="floating-chip chip-top"><i class="bi bi-code-slash"></i> Clean code</div><div class="floating-chip chip-bottom"><i class="bi bi-lightning-charge-fill"></i> <span data-ar="تصميم متجاوب" data-en="Responsive design">تصميم متجاوب</span></div><div class="visual-star star-a">✳</div><div class="visual-star star-b">✦</div>
+          </div></div>
+        </div>
+        <div class="hero-bottom-note"><span>01 / 05</span><span class="note-line"></span><span data-ar="مرّر لاكتشاف المزيد" data-en="Scroll to discover">مرّر لاكتشاف المزيد</span><i class="bi bi-arrow-down"></i></div>
+      </div>
+    </section>
+    <section id="about" class="section-pad section-border"><div class="container">
+      <div class="section-heading"><span class="section-index">01 — <span data-ar="نبذة" data-en="ABOUT">نبذة</span></span><h2 data-ar="القليل عني، والكثير من الطموح." data-en="A little about me, a lot of ambition.">القليل عني، والكثير من الطموح.</h2><p data-ar="أؤمن أن أفضل المنتجات تبدأ بفكرة واضحة وتنفيذ يهتم بالتفاصيل." data-en="I believe great products start with a clear idea and thoughtful execution.">أؤمن أن أفضل المنتجات تبدأ بفكرة واضحة وتنفيذ يهتم بالتفاصيل.</p></div>
+      <div class="row g-4 align-items-stretch"><div class="col-lg-7"><div class="glass-card about-card h-100"><div class="card-icon"><i class="bi bi-person-workspace"></i></div><h3 data-ar="أتعلم اليوم لأبني حلول الغد" data-en="Learning today, building tomorrow">أتعلم اليوم لأبني حلول الغد</h3><p data-ar="أنا ali، طالب ومطور ويب طموح، أستمتع بتحويل التصاميم والأفكار إلى صفحات ويب عملية. أركز على كتابة كود منظم، وتصميم واضح، وتجربة استخدام تعمل بسلاسة على مختلف الأجهزة." data-en="I'm ali, an aspiring web developer and student who enjoys turning designs and ideas into practical web pages. I focus on organized code, clear design, and experiences that work smoothly across devices.">أنا ali، طالب ومطور ويب طموح، أستمتع بتحويل التصاميم والأفكار إلى صفحات ويب عملية. أركز على كتابة كود منظم، وتصميم واضح، وتجربة استخدام تعمل بسلاسة على مختلف الأجهزة.</p><p data-ar="هدفي هو تطوير مهاراتي باستمرار والمشاركة في مشاريع حقيقية تمنح المستخدم قيمة واضحة." data-en="My goal is to keep improving and contribute to real projects that deliver meaningful value.">هدفي هو تطوير مهاراتي باستمرار والمشاركة في مشاريع حقيقية تمنح المستخدم قيمة واضحة.</p><a href="#contact" class="text-link"><span data-ar="تواصل معي" data-en="Get in touch">تواصل معي</span> <i class="bi bi-arrow-up-left"></i></a></div></div>
+      <div class="col-lg-5"><div class="row g-3 h-100"><div class="col-6"><div class="stat-card"><span class="stat-icon"><i class="bi bi-kanban"></i></span><strong>04<span>+</span></strong><p data-ar="مشاريع تدريبية" data-en="Practice projects">مشاريع تدريبية</p></div></div><div class="col-6"><div class="stat-card"><span class="stat-icon"><i class="bi bi-mortarboard"></i></span><strong>∞</strong><p data-ar="شغف بالتعلم" data-en="Passion for learning">شغف بالتعلم</p></div></div><div class="col-12"><div class="quote-card"><i class="bi bi-quote"></i><p data-ar="«الاستمرارية تتفوق على الكمال؛ ابدأ، تعلّم، ثم حسّن.»" data-en="“Consistency beats perfection. Start, learn, then improve.”">«الاستمرارية تتفوق على الكمال؛ ابدأ، تعلّم، ثم حسّن.»</p><span>— My mindset</span></div></div></div></div></div>
+    </div></section>
+    <section id="skills" class="section-pad section-border"><div class="container">
+      <div class="section-heading"><span class="section-index">02 — <span data-ar="المهارات" data-en="SKILLS">المهارات</span></span><h2 data-ar="الأدوات التي أعمل بها." data-en="Tools I work with.">الأدوات التي أعمل بها.</h2><p data-ar="مجموعة مهارات أطورها بالتطبيق والممارسة المستمرة." data-en="A set of skills I'm growing through practice and hands-on work.">مجموعة مهارات أطورها بالتطبيق والممارسة المستمرة.</p></div>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3"><div class="skill-card"><div class="skill-icon html-icon"><i class="bi bi-filetype-html"></i></div><h3>HTML5</h3><p data-ar="هيكلة صفحات دلالية ومنظمة." data-en="Semantic, well-structured pages.">هيكلة صفحات دلالية ومنظمة.</p><div class="skill-meter"><span style="width:90%"></span></div><div class="skill-meta"><span data-ar="متقدم نسبيًا" data-en="Proficient">متقدم نسبيًا</span><span>90%</span></div></div></div>
+        <div class="col-md-6 col-lg-3"><div class="skill-card"><div class="skill-icon css-icon"><i class="bi bi-filetype-css"></i></div><h3>CSS3</h3><p data-ar="تنسيق عصري وحركات بسيطة." data-en="Modern styling and subtle motion.">تنسيق عصري وحركات بسيطة.</p><div class="skill-meter"><span style="width:82%"></span></div><div class="skill-meta"><span data-ar="جيد جدًا" data-en="Very good">جيد جدًا</span><span>82%</span></div></div></div>
+        <div class="col-md-6 col-lg-3"><div class="skill-card"><div class="skill-icon bootstrap-icon"><i class="bi bi-bootstrap"></i></div><h3>Bootstrap</h3><p data-ar="واجهات متجاوبة بمكونات جاهزة." data-en="Responsive UI with reusable components.">واجهات متجاوبة بمكونات جاهزة.</p><div class="skill-meter"><span style="width:78%"></span></div><div class="skill-meta"><span data-ar="جيد" data-en="Good">جيد</span><span>78%</span></div></div></div>
+        <div class="col-md-6 col-lg-3"><div class="skill-card"><div class="skill-icon js-icon"><i class="bi bi-filetype-js"></i></div><h3>JavaScript</h3><p data-ar="أساسيات التفاعل والمنطق." data-en="Core interactivity and logic.">أساسيات التفاعل والمنطق.</p><div class="skill-meter"><span style="width:58%"></span></div><div class="skill-meta"><span data-ar="قيد التطوير" data-en="Learning">قيد التطوير</span><span>58%</span></div></div></div>
+      </div><div class="tool-strip"><span data-ar="أستخدم أيضًا" data-en="Also familiar with">أستخدم أيضًا</span><b><i class="bi bi-git"></i> Git</b><b><i class="bi bi-github"></i> GitHub</b><b><i class="bi bi-phone"></i> Responsive UI</b><b><i class="bi bi-universal-access"></i> Accessibility basics</b></div>
+    </div></section>
+    <section id="projects" class="section-pad section-border"><div class="container">
+      <div class="section-heading"><span class="section-index">03 — <span data-ar="المشاريع" data-en="PROJECTS">المشاريع</span></span><h2 data-ar="أعمال مختارة." data-en="Selected projects.">أعمال مختارة.</h2><p data-ar="نماذج توضح طريقة تفكيري وما أتعلمه في كل تجربة." data-en="A few examples of how I think and what I learn with each build.">نماذج توضح طريقة تفكيري وما أتعلمه في كل تجربة.</p></div>
+      <div class="row g-4">
+        <div class="col-md-6"><article class="project-card h-100"><div class="project-preview preview-purple"><div class="mock-browser"><div class="mock-top"><span></span><span></span><span></span><b>FOCUS / DASHBOARD</b></div><div class="mock-content"><div class="mock-sidebar"><i></i><i></i><i></i><i></i></div><div class="mock-main"><div class="mock-heading"></div><div class="mock-stats"><i></i><i></i><i></i></div><div class="mock-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div></div><span class="project-number">01</span></div><div class="project-body"><div class="project-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div><h3 data-ar="لوحة تحكم المهام" data-en="Task Dashboard">لوحة تحكم المهام</h3><p data-ar="واجهة لوحة تحكم تجريبية لتنظيم المهام وعرض الإحصائيات بتصميم متجاوب." data-en="A demo dashboard UI for organizing tasks and displaying stats in a responsive layout.">واجهة لوحة تحكم تجريبية لتنظيم المهام وعرض الإحصائيات بتصميم متجاوب.</p><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer"><span data-ar="عرض المشروع" data-en="View project">عرض المشروع</span> <i class="bi bi-arrow-up-left"></i></a></div></article></div>
+        <div class="col-md-6"><article class="project-card h-100"><div class="project-preview preview-orange"><div class="store-mock"><div class="store-nav">NOVA <span>☰</span></div><div class="store-hero"><div><small>NEW COLLECTION</small><b>Less noise.<br>More style.</b><i>EXPLORE →</i></div><div class="product-orb"><span></span></div></div><div class="store-products"><i></i><i></i><i></i></div></div><span class="project-number">02</span></div><div class="project-body"><div class="project-tags"><span>HTML</span><span>CSS Grid</span><span>Responsive</span></div><h3 data-ar="صفحة متجر إلكتروني" data-en="E-commerce Landing Page">صفحة متجر إلكتروني</h3><p data-ar="صفحة هبوط لعلامة تجارية خيالية تركز على ترتيب المحتوى والوضوح البصري." data-en="A landing page for a fictional brand, focused on content hierarchy and visual clarity.">صفحة هبوط لعلامة تجارية خيالية تركز على ترتيب المحتوى والوضوح البصري.</p><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer"><span data-ar="عرض المشروع" data-en="View project">عرض المشروع</span> <i class="bi bi-arrow-up-left"></i></a></div></article></div>
+        <div class="col-md-6"><article class="project-card h-100"><div class="project-preview preview-blue"><div class="weather-mock"><div class="weather-top"><span>WEATHER / TODAY</span><i class="bi bi-cloud-sun"></i></div><div class="weather-temp">24°<small>PARTLY CLOUDY</small></div><div class="weather-bottom"><span>Humidity <b>42%</b></span><span>Wind <b>12 km/h</b></span></div></div><span class="project-number">03</span></div><div class="project-body"><div class="project-tags"><span>HTML</span><span>CSS</span><span>UI Design</span></div><h3 data-ar="واجهة تطبيق الطقس" data-en="Weather App UI">واجهة تطبيق الطقس</h3><p data-ar="تصميم بطاقة طقس تعرض المعلومات الأساسية بطريقة سهلة القراءة على الشاشات الصغيرة." data-en="A weather interface concept that presents key information clearly on small screens.">تصميم بطاقة طقس تعرض المعلومات الأساسية بطريقة سهلة القراءة على الشاشات الصغيرة.</p><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer"><span data-ar="عرض المشروع" data-en="View project">عرض المشروع</span> <i class="bi bi-arrow-up-left"></i></a></div></article></div>
+        <div class="col-md-6"><article class="project-card h-100"><div class="project-preview preview-green"><div class="notes-mock"><div class="notes-head"><i class="bi bi-journal-check"></i> MY NOTES</div><div class="note-item"><span></span><b></b><i></i></div><div class="note-item"><span></span><b></b><i></i></div><div class="note-item"><span></span><b></b><i></i></div><div class="notes-add">+</div></div><span class="project-number">04</span></div><div class="project-body"><div class="project-tags"><span>Bootstrap</span><span>CSS</span><span>Layout</span></div><h3 data-ar="منظم الملاحظات" data-en="Notes Organizer">منظم الملاحظات</h3><p data-ar="تصميم واجهة بسيطة لعرض الملاحظات في بطاقات مع اهتمام بالتباعد وسهولة الاستخدام." data-en="A simple notes interface with card layouts, thoughtful spacing, and usability in mind.">تصميم واجهة بسيطة لعرض الملاحظات في بطاقات مع اهتمام بالتباعد وسهولة الاستخدام.</p><a class="project-link" href="https://github.com/" target="_blank" rel="noreferrer"><span data-ar="عرض المشروع" data-en="View project">عرض المشروع</span> <i class="bi bi-arrow-up-left"></i></a></div></article></div>
+      </div><p class="projects-note"><i class="bi bi-info-circle"></i> <span data-ar="المشاريع المعروضة أمثلة تصميمية؛ استبدل روابطها بمشاريعك الحقيقية قبل النشر." data-en="These are sample concepts. Replace their links with your real projects before publishing.">المشاريع المعروضة أمثلة تصميمية؛ استبدل روابطها بمشاريعك الحقيقية قبل النشر.</span></p>
+    </div></section>
+    <section id="contact" class="section-pad section-border"><div class="container"><div class="contact-panel"><div class="contact-decoration">✳</div><span class="section-index">04 — <span data-ar="تواصل" data-en="CONTACT">تواصل</span></span><h2 data-ar="لنبنِ شيئًا مميزًا معًا." data-en="Let's build something great.">لنبنِ شيئًا مميزًا معًا.</h2><p data-ar="هل لديك فرصة تدريب أو فكرة مشروع؟ يسعدني أن أسمع منك." data-en="Have an internship opportunity or a project idea? I'd love to hear from you.">هل لديك فرصة تدريب أو فكرة مشروع؟ يسعدني أن أسمع منك.</p><div class="contact-details">
+          <a class="contact-detail" href="mailto:am3440314@gmail.com"><span class="contact-detail-icon"><i class="bi bi-envelope"></i></span><span><small data-ar="البريد الإلكتروني" data-en="Email address">البريد الإلكتروني</small><strong>am3440314@gmail.com</strong></span></a>
+          <a class="contact-detail" href="tel:+201024348745"><span class="contact-detail-icon"><i class="bi bi-telephone"></i></span><span><small data-ar="رقم الموبايل" data-en="Phone number">رقم الموبايل</small><strong dir="ltr">01024348745</strong></span></a>
+          <a class="contact-detail" href="https://www.google.com/maps/search/?api=1&query=Al+Mansurah%2C+Dakahlia%2C+Egypt" target="_blank" rel="noreferrer"><span class="contact-detail-icon"><i class="bi bi-geo-alt"></i></span><span><small data-ar="الموقع" data-en="Location">الموقع</small><strong data-ar="المنصورة، الدقهلية، مصر" data-en="Al Mansurah, Dakahlia, Egypt">المنصورة، الدقهلية، مصر</strong></span></a>
+        </div><div class="contact-socials"><a href="https://github.com/" target="_blank" rel="noreferrer"><i class="bi bi-github"></i> GitHub</a><a href="https://linkedin.com/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin"></i> LinkedIn</a></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2"><a class="footer-brand" href="#home">✦ <span>ali</span></a><p>© <span id="year"></span> <span data-ar="ali. صُنع بشغف." data-en="ali. Made with care.">ali. صُنع بشغف.</span></p><a href="#home" class="back-top"><span data-ar="العودة للأعلى" data-en="Back to top">العودة للأعلى</span> <i class="bi bi-arrow-up"></i></a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

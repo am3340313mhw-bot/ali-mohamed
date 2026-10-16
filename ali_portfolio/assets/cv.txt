@@ -1,0 +1,18 @@
+CV — ali
+
+Role: Web Developer / Student
+Email: am3440314@gmail.com
+Phone: 01024348745
+Location: Al Mansurah, Dakahlia, Egypt
+
+Profile
+Aspiring web developer interested in building clean, responsive, user-friendly websites.
+
+Skills
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript fundamentals
+- Git and GitHub
+
+Note: Replace this sample CV with your real education, experience, and contact details before publishing.
